@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+body{
+  background-color: rgb(33,37,41);
+}
+
+.logo{
+  font-weight: bold;
+  color: rgb(232,99,10);
+  padding: 8px;
+  font-size: 20px;
+  position: absolute;
+}
+
+.menu{
+  position: absolute;
+  display: inline-flex;
+  margin: 20px 32.5%;
+}
+
+.menu a{
+  text-decoration: none;
+  padding: 5px;
+  color: #ffffff;
+}
+
+.menu a:hover{
+  color: rgb(232,99,10);
+  font-weight: bold;
+}
+
+.btnContrate-me{
+  position: absolute;
+  margin-left: 90%;
+  margin-top: 8px;
+  border-radius: 20px;
+  border: 2px solid rgb(232,99,10);
+  color: rgb(232,99,10);
+  font-weight: bold;
+  background-color: rgb(33,37,41);
+  height: 35px;
+  width: 110px;
+}
